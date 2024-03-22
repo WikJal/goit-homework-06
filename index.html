@@ -447,8 +447,7 @@
                 <img
                   src="./images/app.jpg"
                   alt="bankingapp"
-                  width="360"
-                  height="300"
+                  
                 />
                 <p class="section-image-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -463,11 +462,25 @@
             </li>
             <li class="li-trzy">
               <div class="section-image">
+                <source
+                media="(min-width:767)"
+                srcset="./images/phone-mobile.jpg  1x,
+                ./images/phone_12x-mobile.jpg  2x
+                "/>
+                <source 
+                media="(min-width; 768px)"
+                srcset="./images/phone-tablet.jpg  1x,
+                ./images/phone-12x-tablet.jpg  2x
+                "/>
+                <source
+                media="(min-width: 1158px)"
+                srcset="
+                ./images/phone_1.jpg 1x
+                ./images/phone-12x.jpg 2x"/>
                 <img
                   src="./images/phone_1.jpg"
                   alt="Cashless Payment"
-                  width="360"
-                  height="300"
+                 
                 />
                 <p class="section-image-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
