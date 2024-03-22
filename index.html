@@ -272,6 +272,7 @@
             </li>
             <li class="li-dwa">
               <img
+              srcset="./images/Camila.jpg 1x, ./images/camila2x.jpg 2x"
                 src="./images/Camila.jpg"
                 alt="Camila"
                 width="264"
@@ -346,6 +347,7 @@
             </li>
             <li class="li-dwa">
               <img
+              srcset="./images/Daniel.jpg 1x, ./images/Daniel2x.jpg 2x"
                 src="./images/Daniel.jpg"
                 alt="Daniel"
                 width="264"
@@ -427,6 +429,21 @@
           <ul class="ul-list-trzy">
             <li class="li-trzy">
               <div class="section-image">
+                <source
+                media="(min-width:767)"
+                srcset="./images/app-mobile.jpg  1x,
+                ./images/app2x-mobile.jpg  2x
+                "/>
+                <source 
+                media="(min-width; 768px)"
+                srcset="./images/app-tablet.jpg  1x,
+                ./images/app2x-tablet.jpg  2x
+                "/>
+                <source
+                media="(min-width: 1158px)"
+                srcset="
+                ./images/app.jpg 1x
+                ./images/app2x.jpg 2x"/>
                 <img
                   src="./images/app.jpg"
                   alt="bankingapp"
