@@ -705,3 +705,13 @@ ul {
   --color-section1: #2e2f42;
   --color-etykieta: #8e8f99;
 }
+
+@media (min-resolution: 192dpi) {
+  .sekcja {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(.images\office2x.jpg);
+  }
+}
