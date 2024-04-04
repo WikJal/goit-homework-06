@@ -761,17 +761,24 @@ ul {
 }
 .menu-group,
 .menu-icon-group {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
+  display: none;
 }
 /*-- tablet.1. --*/
+section {
+  background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+),
+url(../images/office2x.jpg);
+max-width: 768px;
+padding: 112px 0;
+}
 .header {
   font-size: 56px;
   max-width: 496px;
 }
-
-.sekcja-two {
+/* tablet.2. */
+.section-two {
   padding: 96px 0;
 }
 .ul-list-two {
@@ -865,16 +872,18 @@ ul {
   min-height: 584px;
 }
 @media (min-width: 768px) and (min-resolution: 192dpi) {
-  .blue-box {
+  .section {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/heroimage-tablet@2x.jpg);
+      url(../images/office@2x.jpg);
   }
 }
 
---Menu-group-- .icon-group {
+--Menu-group-- 
+
+.icon-group {
   fill: #2f2f37;
   cursor: pointer;
 }
