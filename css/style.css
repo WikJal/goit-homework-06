@@ -227,8 +227,62 @@ section{
   margin: 0 auto;
   margin-bottom: 48px;
 }
+.button {
+  background-color: #4d5ae5;
+    color: #fff;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+.button:active {
+  background-color: #404bbf;
+}
+/* --- About us section 2 --- */
 
-
+.section-two {
+  padding: 96px 0;
+}
+.ul-list-two {
+  display: flex;
+  flex-direction: column;
+  row-gap: 72px;
+}
+.lis-two {
+  width: 100%;
+  gap: 72px;
+}
+.icon-box {
+  display: none;
+}
+.pee {
+  font-weight: 500;
+}
+.visually-hidden {
+  position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .header-two {
   color: #2e2f42;
   margin-bottom: 72px;
@@ -252,13 +306,7 @@ section{
 }
 
 
-.pee {
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-align: left;
-}
+
 .pee-1 {
   font-size: 16px;
   line-height: 24px;
@@ -288,9 +336,7 @@ section{
 
 
 
-.section-two {
-  padding: 120px 0;
-}
+
 .section-three {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -299,29 +345,8 @@ section{
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.button {
-  background-color: #4d5ae5;
-  color: #fff;
-  font-family: inherit;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  display: block;
-  margin: 0 auto;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  border-radius: 4px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.button:hover .button:focus {
-  background-color: #404bbf;
-}
-.button:active {
-  background-color: #404bbf;
-}
+
+
 
 
 .link-addres {
@@ -341,9 +366,7 @@ section{
   gap: 40px;
   padding: 24px 0;
 }
-.lis-two {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-}
+
 .lis:last-child {
   margin-right: 0;
 }
@@ -400,12 +423,7 @@ ul {
 }
 
 
-.ul-list-two {
-  display: flex;
-  gap: 24px;
 
-  padding: 0;
-}
 .ul-list-three {
   display: flex;
   flex-wrap: wrap;
@@ -416,18 +434,7 @@ ul {
   margin-right: 0;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+
 .personal {
   margin: 0;
   padding: 32px 0px;
@@ -454,18 +461,7 @@ ul {
   left: 0;
   bottom: -1px;
 }
-.icon-box {
-  background: #f4f4fd;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 264px;
-  height: 112px;
-  margin-bottom: 8px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .icon use {
   z-index: 999;
   position: absolute;
