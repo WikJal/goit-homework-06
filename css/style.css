@@ -194,7 +194,7 @@ ul {
 }
 .header-container {
   border-bottom: 1px solid #e7e9fc;
-  margin: 24px 0;
+
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -381,7 +381,7 @@ ul {
 .footer-info {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
+ 
 }
 .footer-social {
   gap: 16px;
@@ -761,15 +761,6 @@ ul {
   pointer-events: none;
 }
 /*-- tablet.1. --*/
-.section {
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/office 2x.jpg);
-  max-width: 768px;
-  padding: 112px 0;
-}
 .header {
   font-size: 56px;
   max-width: 496px;
