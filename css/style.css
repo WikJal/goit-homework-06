@@ -909,23 +909,23 @@ padding: 112px 0;
       letter-spacing: 0.02em;
   }
   /* desktop.1. */
-  .blue-box {
+  .section {
       background-image: linear-gradient(
               rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)
           ),
-          url(../images/heroimage-desktop.jpg);
+          url(../images/office.jpg);
       max-width: 1440px;
       padding: 188px 0;
   }
   /* desktop.2. */
-  .goals-columns {
+  .section-two {
       padding: 120px 0;
   }
-  .goals-item {
+  .lis-two {
       width: calc((100% - 72px) / 4);
   }
-  .goals-symbols {
+  .icon-box {
       display: block;
       background: #f4f4fd;
       border: 1px solid #8e8f99;
@@ -938,20 +938,20 @@ padding: 112px 0;
       align-items: center;
       justify-content: center;
   }
-  .goals-symbols-icon {
+  .icon {
       position: absolute;
       top: 24px;
       left: 100px;
   }
-  .goals {
+  .pee {
       font-weight: inherit;
   }
   /* desktop.3. */
-  .team-background {
+  .section-three {
       padding: 120px 0;
   }
   /* desktop.2-3-4. */
-  .list-titles.desktop-h3 {
+  .lis-two.desktop-h3 {
       font-size: 20px;
       font-weight: 500;
   }
