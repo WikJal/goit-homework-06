@@ -82,7 +82,6 @@ img {
   text-align: center;
 }
 
-
 .logo {
   font-weight: 700;
   font-size: 18px;
@@ -395,7 +394,6 @@ ul {
 .footer-info {
   display: flex;
   align-items: baseline;
- 
 }
 .footer-social {
   gap: 16px;
@@ -717,7 +715,9 @@ ul {
       url(.images\office2x.jpg);
   }
 }
---Tablet-- 
+/* ----------------------------- responsive -------------------------- */
+
+/* ==================================TABLET===================================== */
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -766,12 +766,12 @@ ul {
 /*-- tablet.1. --*/
 section {
   background-image: linear-gradient(
-    rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)
-),
-url(../images/office2x.jpg);
-max-width: 768px;
-padding: 112px 0;
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/office2x.jpg);
+  max-width: 768px;
+  padding: 112px 0;
 }
 .header {
   font-size: 56px;
@@ -883,138 +883,136 @@ padding: 112px 0;
 /* ================================DESKTOP================================== */
 @media (min-width: 1158px) {
   .container {
-      max-width: 1158px;
-      padding-left: 15px;
-      padding-right: 15px;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   /* desktop.header */
   .logo-footer {
-      padding: 0;
-      margin-right: 76px;
+    padding: 0;
+    margin-right: 76px;
   }
 
   .left-navi-list,
   .right-navi-list {
-      flex-direction: row;
+    flex-direction: row;
   }
   .right-navi-list {
-      gap: 40px;
-      padding: 24px 0;
-      margin-right: 0;
-      justify-content: flex-end;
+    gap: 40px;
+    padding: 24px 0;
+    margin-right: 0;
+    justify-content: flex-end;
   }
   .contact-link {
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
   /* desktop.1. */
   .section {
-      background-image: linear-gradient(
-              rgba(46, 47, 66, 0.7),
-              rgba(46, 47, 66, 0.7)
-          ),
-          url(../images/office.jpg);
-      max-width: 1440px;
-      padding: 188px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/office.jpg);
+    max-width: 1440px;
+    padding: 188px 0;
   }
   /* desktop.2. */
   .section-two {
-      padding: 120px 0;
+    padding: 120px 0;
   }
   .lis-two {
-      width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
   }
   .icon-box {
-      display: block;
-      background: #f4f4fd;
-      border: 1px solid #8e8f99;
-      border-radius: 4px;
-      width: 264px;
-      height: 112px;
-      margin-bottom: 8px;
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    display: block;
+    background: #f4f4fd;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .icon {
-      position: absolute;
-      top: 24px;
-      left: 100px;
+    position: absolute;
+    top: 24px;
+    left: 100px;
   }
   .pee {
-      font-weight: inherit;
+    font-weight: inherit;
   }
   /* desktop.3. */
   .section-three {
-      padding: 120px 0;
+    padding: 120px 0;
   }
   /* desktop.2-3-4. */
   .header-three.desktop-h3 {
-      font-size: 20px;
-      font-weight: 500;
+    font-size: 20px;
+    font-weight: 500;
   }
   /* desktop.4. */
   .ul-list-three {
-      column-gap: 24px;
-      row-gap: 48px;
+    column-gap: 24px;
+    row-gap: 48px;
   }
   .li-three {
-      width: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
   }
   /* desktop.F. */
   .footer-info {
-      flex-direction: row;
-      flex-wrap: nowrap;
-      align-items: baseline;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
   }
   .footer {
-      height: 312px;
-      padding: 100px 0;
+    height: 312px;
+    padding: 100px 0;
   }
   .footer-info-left {
-      margin-right: 120px;
+    margin-right: 120px;
   }
   .div-sub {
     margin-left: auto;
-}
-  
+  }
+
   .logo-footer {
-      display: inline-block;
-      margin-bottom: 16px;
-      text-align: left;
+    display: inline-block;
+    margin-bottom: 16px;
+    text-align: left;
   }
   .input-footer::placeholder {
-      color: white;
-      opacity: 1;
+    color: white;
+    opacity: 1;
   }
   .pepa {
-      width: 264px;
+    width: 264px;
   }
   .input-footer {
-      opacity: 1;
+    opacity: 1;
   }
   /* desktop.modal */
   .modal-box {
-      width: 408px;
-      min-height: 584px;
-      padding: 72px 24px 24px 24px;
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px 24px;
   }
 }
 @media (min-width: 1158px) and (min-resolution: 192dpi) {
   .section {
-      background-image: linear-gradient(
-              rgba(46, 47, 66, 0.7),
-              rgba(46, 47, 66, 0.7)
-          ),
-          url(../images/heroimage-desktop@2x.jpg);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/heroimage-desktop@2x.jpg);
   }
 }
 
---Menu-group-- 
-
-.icon-group {
+--Menu-group-- .icon-group {
   fill: #2f2f37;
   cursor: pointer;
 }
