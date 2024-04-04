@@ -1012,7 +1012,8 @@ section {
   }
 }
 
---Menu-group-- .icon-group {
+/* --- mobile.menu group --- */
+.icon-group {
   fill: #2f2f37;
   cursor: pointer;
 }
