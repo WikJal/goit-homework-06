@@ -786,7 +786,7 @@ padding: 112px 0;
   flex-wrap: wrap;
   column-gap: 24px;
 }
-.lis-dwa {
+.lis-two {
   width: calc((100% - 24px) / 2);
   gap: 72px;
 }
@@ -951,20 +951,20 @@ padding: 112px 0;
       padding: 120px 0;
   }
   /* desktop.2-3-4. */
-  .lis-two.desktop-h3 {
+  .header-three.desktop-h3 {
       font-size: 20px;
       font-weight: 500;
   }
   /* desktop.4. */
-  .portfolio-list {
+  .ul-list-three {
       column-gap: 24px;
       row-gap: 48px;
   }
-  .portfolio-media {
+  .li-three {
       width: calc((100% - 48px) / 3);
   }
   /* desktop.F. */
-  .container-footer {
+  .footer-info {
       flex-direction: row;
       flex-wrap: nowrap;
       align-items: baseline;
@@ -976,26 +976,27 @@ padding: 112px 0;
   .footer-info-left {
       margin-right: 120px;
   }
-  .sdiv-sub {
-      margin-left: auto;
-  }
-  .logo-bottom {
+  .div-sub {
+    margin-left: auto;
+}
+  
+  .logo-footer {
       display: inline-block;
       margin-bottom: 16px;
       text-align: left;
   }
-  .input-dark::placeholder {
+  .input-footer::placeholder {
       color: white;
       opacity: 1;
   }
-  .text-bright {
+  .pepa {
       width: 264px;
   }
-  .input-dark {
+  .input-footer {
       opacity: 1;
   }
   /* desktop.modal */
-  .modal {
+  .modal-box {
       width: 408px;
       min-height: 584px;
       padding: 72px 24px 24px 24px;
