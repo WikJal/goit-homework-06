@@ -20,12 +20,12 @@ h3,
 h4,
 h5,
 h6,
-p, {
+p {
   margin: 0;
   padding: 0;
 }
 
-ul{
+ul {
   list-style: none;
   margin: 0;
   padding-left: 0;
@@ -35,6 +35,21 @@ ul p {
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
+}
+.container {
+  max-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin: 0 auto;
+}
+.footer-info {
+  display: flex;
+  align-items: baseline;
+}
+section{
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .header {
   color: #ffffff;
@@ -79,13 +94,6 @@ ul p {
   text-align: center;
 }
 
-.container {
-  max-width: 320px;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-left: auto;
-  margin: 0 auto;
-}
 /* --- mobile.menu group --- */
 .icon-group {
   fill: #2f2f37;
@@ -217,7 +225,7 @@ ul p {
   font-style: normal;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.section {
+.section-one {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -491,10 +499,7 @@ ul {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-.footer-info {
-  display: flex;
-  align-items: baseline;
-}
+
 .footer-social {
   gap: 16px;
 }
@@ -864,7 +869,7 @@ ul {
   display: none;
 }
 /*-- tablet.1. --*/
-section {
+section-one {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -972,7 +977,7 @@ section {
   min-height: 584px;
 }
 @media (min-width: 768px) and (min-resolution: 192dpi) {
-  .section {
+  .section-one {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -1009,7 +1014,7 @@ section {
     letter-spacing: 0.02em;
   }
   /* desktop.1. */
-  .section {
+  .section-one {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -1103,7 +1108,7 @@ section {
   }
 }
 @media (min-width: 1158px) and (min-resolution: 192dpi) {
-  .section {
+  .section-one {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
