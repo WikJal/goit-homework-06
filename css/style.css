@@ -658,6 +658,58 @@ section {
     background-color: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.textarea-modal:focus-within {
+  border-color: #4d5ae5;
+}
+/*.textarea-modal::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+} */
+
+.div-modal-five {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.button-modal-six {
+  font-family: inherit;
+    font-size: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button{
+  position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 24px;
+    right: 24px;
+    background-color: #e7e9fc;
+    fill: #2e2f42;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
 .header-three-name {
   color: #2e2f42;
   margin-bottom: 8px;
@@ -870,20 +922,9 @@ a {
   margin-bottom: 16px;
 }
 
-.textarea-modal:focus {
-  border-color: #4d5ae5;
-}
-.textarea-modal::placeholder {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
-}
 
-.div-modal-five {
-  margin-bottom: 24px;
-}
+
+
 .label-modal-five {
   display: block;
   font-size: 12px;
@@ -909,23 +950,7 @@ a {
   color: var(--color-logo);
 }
 
-.button-modal-six {
-  display: block;
-  margin: 0 auto;
-  min-width: 169px;
-  height: 56px;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
-  background-color: #4d5ae5;
-  border: none;
-  border-radius: 4px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .button-modal-six:focus,
 .button-modal-six:hover {
   background-color: #404bbf;
