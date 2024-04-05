@@ -380,20 +380,29 @@ section {
 
 .header-two {
   color: #2e2f42;
-  margin-bottom: 72px;
-  padding: 0 auto;
-  text-align: center;
-  text-transform: capitalize;
-  height: 40px;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
 }
 .header-three {
   color: #2e2f42;
-  margin-bottom: 8px;
-  text-align: left;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
+
+.header-three.mobile-h2 {
+  font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* --- footer dark end --- */
+
 .header-three-name {
   color: #2e2f42;
   margin-bottom: 8px;
