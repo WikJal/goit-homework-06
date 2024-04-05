@@ -512,11 +512,34 @@ section {
   justify-content: center;
   margin: 0 auto;
 }
+
 .footer-icon {
   fill: white;
     margin-left: 16px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/* --- details icons --- */
+
+.icon-circle {
+  width: 40px;
+  height: 40px;
+}
+.member-socials-link {
+  width: 100%;
+    height: 100%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.member-socials-link-icon {
+  fill: #f4f4fd;
+}
+
+/* --- modal --- */
 
 .header-three-name {
   color: #2e2f42;
@@ -573,33 +596,18 @@ section {
 a {
   text-decoration: none;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding-left: 0;
-}
+
+
 
 .menu-nav {
   display: flex;
   gap: 40px;
   padding: 24px 0;
 }
-.container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-
-
-
 
 .ul-list:last-child {
   margin-right: 0;
 }
-
-
-
 
 .now {
   position: relative;
@@ -627,20 +635,9 @@ ul {
   width: 40px;
   height: 40px;
 }
-.member-socials-link {
-  width: 100%;
-  height: 100%;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.member-socials-link-icon {
-  fill: #f4f4fd;
-}
+
+
 
 
 
@@ -1207,7 +1204,3 @@ section-one {
   }
 }
 
-.icon-circle {
-  width: 40px;
-  height: 40px;
-}
