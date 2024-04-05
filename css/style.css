@@ -484,6 +484,40 @@ section {
 .div-sub {
   margin: 0px;
 }
+.form {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 16px;
+}
+
+.button-sub {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: white;
+  background-color: #4d5ae5;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 4px;
+  min-width: 165px;
+  height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.footer-icon {
+  fill: white;
+    margin-left: 16px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .header-three-name {
   color: #2e2f42;
   margin-bottom: 8px;
@@ -653,32 +687,10 @@ ul {
 
 
 
-.form {
-  display: flex;
-  gap: 24px;
-}
 
 
-.button-sub {
-  min-width: 165px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
-  background-color: #4d5ae5;
-  border: none;
-  border-radius: 4px;
-}
-.footer-icon {
-  margin-left: 16px;
-}
+
+
 .modal-container {
   position: fixed;
   top: 0;
