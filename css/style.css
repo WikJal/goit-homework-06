@@ -541,6 +541,105 @@ section {
 
 /* --- modal --- */
 
+.modal-container {
+  position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(46, 47, 66, 0.4);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+.modal-container.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: none;
+}
+
+.modal-box {
+  position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 288px;
+    min-height: 623px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+        0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    background: #fcfcfc;
+    padding: 72px 16px 24px 16px;
+    border-radius: 4px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+.paragraph-modal {
+  text-align: center;
+    color: #2e2f42;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.div-modal-form {
+  margin-bottom: 8px;
+}
+.last{
+  margin-bottom: 16px;
+}
+.div-modal-label {
+  width: 100%;
+    height: 40px;
+    position: relative;
+}
+.div-modal-form:focus-within{
+  border-color: #4d5ae5;
+}
+
+.modal-icon {
+  left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    fill: #2e2f42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.div-modal-form:focus-within .modal-icon{
+  fill: #4d5ae5;
+}
+.input-modal {
+  width: 100%;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    outline: transparent;
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 38px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba(46, 47, 66, 0.4);
+}
+.input-modal:focus{
+  border-color: #4d5ae5;
+}
+.label-modal {
+  font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    padding: 0;
+    display: block;
+    margin-bottom: 4px;
+}
 .header-three-name {
   color: #2e2f42;
   margin-bottom: 8px;
@@ -688,16 +787,7 @@ a {
 
 
 
-.modal-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 
 .is-hidden {
   opacity: 0;
@@ -705,21 +795,7 @@ a {
   pointer-events: none;
 }
 
-.modal-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(1);
-  width: 408px;
-  min-height: 584px;
-  flex-shrink: 0;
-  border-radius: 4px;
-  background: var(--DAIRY, #fcfcfc);
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
-    0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 72px 24px 24px 24px;
-}
+
 
 .modal-button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -759,52 +835,18 @@ a {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.paragraph-modal {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--color-section1);
-  margin-bottom: 16px;
-}
-.div-modal-form {
-  margin-bottom: 8px;
-}
-.label-modal {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  display: block;
-  margin-bottom: 4px;
-}
-.div-modal-label {
-  position: relative;
-}
-.input-modal {
-  width: 100%;
-  height: 40px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px;
-  background-color: transparent;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding-left: 38px;
-  outline: transparent;
-}
+
+
+
+
+
 .input-modal:focus {
   border: 1px solid #4d5ae5;
 }
 .input-modal:focus + svg {
   fill: #4d5ae5;
 }
-.modal-icon {
-  position: absolute;
-  left: 16px;
-  top: 50%;
-  transform: translateY(-50%);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 
 .div-modal-four {
   margin-bottom: 16px;
