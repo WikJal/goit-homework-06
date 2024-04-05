@@ -295,6 +295,39 @@ section {
   justify-content: center;
   row-gap: 72px;
 }
+
+.li-two {
+  background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+        0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.personal {
+  padding: 32px 0px;
+}
+
+.pee-1 {
+  font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+}
+.member-socials {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 9px 16px 0px 16px;
+}
+.member-socials-link:hover,
+.member-socials-link:focus {
+  background-color: #404bbf;
+}
+
+/* our portfolio section 4 */
+
 .header-two {
   color: #2e2f42;
   margin-bottom: 72px;
@@ -317,13 +350,7 @@ section {
   text-align: center;
 }
 
-.pee-1 {
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-align: center;
-}
+
 
 .logo-style-two {
   color: #f4f4fd;
@@ -400,14 +427,7 @@ ul {
   padding: 0 15px;
   margin: 0 auto;
 }
-.li-two {
-  border-radius: 0px 0px 4px 4px;
-  background-color: #fff;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  text-align: center;
-  width: calc((100% - 72px) / 4);
-}
+
 .li-three {
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -428,12 +448,7 @@ ul {
   margin-right: 0;
 }
 
-.personal {
-  margin: 0;
-  padding: 32px 0px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+
 
 .appi {
   padding: 32px 16px 32px;
@@ -461,13 +476,7 @@ ul {
   top: 24px;
   left: 100px;
 }
-.member-socials {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  flex-direction: row;
-  align-items: center;
-}
+
 .member-socials-list-element {
   width: 40px;
   height: 40px;
@@ -482,10 +491,7 @@ ul {
   align-items: center;
   justify-content: center;
 }
-.member-socials-link:hover,
-.member-socials-link:focus {
-  background-color: #404bbf;
-}
+
 .member-socials-link-icon {
   fill: #f4f4fd;
 }
